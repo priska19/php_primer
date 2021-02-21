@@ -21,6 +21,9 @@ include 'includes/header.php'
     //perbedaan petiknya ada di cara penulisan variabel
     ?>
     <button type="button" class="btn btn-info">Klik Disini</button>
+    <button type="button" class="btn btn-primary">Klik Disini</button>
+    <button type="button" class="btn btn-success">Klik Disini</button>
+
     <?php require 'includes/footer.php'; 
     //kalo require, file gk ada pagenya gk bisa diload
     ?>
