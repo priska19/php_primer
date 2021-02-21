@@ -20,10 +20,10 @@ include 'includes/header.php'
     echo "<h1> my age is: $age </h1>";
     //perbedaan petiknya ada di cara penulisan variabel
     ?>
-    <button type="button" class="btn btn-info">Klik Disini</button>
+    <button type="button" class="btn btn-dark">Klik Disini</button>
     <button type="button" class="btn btn-primary">Klik Disini</button>
     <button type="button" class="btn btn-success">Klik Disini</button>
-
+    <a href="https://www.heroku.com" target="_blank" class="btn btn-info">Heroku.com</a>
     <?php require 'includes/footer.php'; 
     //kalo require, file gk ada pagenya gk bisa diload
     ?>
